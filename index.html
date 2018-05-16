@@ -2,6 +2,7 @@
 <head>
 <link rel="icon" href="logo.png">
 <link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="main.js"></script>
 <title>YCP Course Directory</title>
 
 </head>
@@ -79,11 +80,11 @@
 </div>
 
 <div class= majorSection" id="compSci">
-	<div class="majorTitle" > Computer Science </div>
-	<div class="courses">
-		<table id="majorTable" >
+	<div class="majorTitle" > Computer Science    <button onclick="showTable('CSclasses')" id="CSbutton">Show</button></div>
+	<div class="courses" id="CSclasses" style="display:block;">
+		<table class="majorTable" >
   			<tr>
-    			<td id="leftCol" >
+    			<td class="leftCol" >
     				
     				<a href="https://ycpcs.github.io/cs100-fall2017/"><p>CS 100 - CPADS I</p></a>
     				<a href="https://ycpcs.github.io/cs101-spring2018/"><p>CS 101 - 	Fund Comp Sci I</p></a>
@@ -92,7 +93,7 @@
     				<a href="https://ycpcs.github.io/cs340-fall2017/"><p>CS 340 -  Programming Language Design</p></a>
 					
 				</td>
-    			<td id="rightCol" ">
+    			<td class="rightCol" ">
     				<a href="https://ycpcs.github.io/cs350-fall2017/"><p>CS 350 -  Data Structures</p></a>
     				<a href="https://ycpcs.github.io/cs370-fall2017/"><p>CS 370 - Comp Graph Progrm - I</p></a>
     				<a href="https://ycpcs.github.io/cs420-fall2017/"><p>CS 420 - Operating Systems</p></a>
@@ -108,12 +109,12 @@
 <div class= majorSection" id="compEng" style="visibility: hidden;">
 	<div class="majorTitle" > Electrical/Computer Engineering</div>
 	<div class="courses">
-		<table id="majorTable">
+		<table class="majorTable">
   			<tr>
-    			<td id="leftCol">
+    			<td class="leftCol">
     				<!--- LINKS GO HERE --->
 				</td>
-    			<td id="rightCol">
+    			<td class="rightCol">
     				<!--- LINKS GO HERE --->
     			</td>
   			</tr>
