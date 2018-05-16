@@ -1,0 +1,96 @@
+body{
+font-family: sans-serif;
+background-color:#b3ceb8;
+}
+
+#top{
+	height: 77px;
+    border-bottom: 2px solid #213824;
+    color: white;
+    background: #4a7348;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -32px;
+    margin-bottom: 30px;
+}
+
+#top a{
+color:#ffffff;
+}
+
+#top a:visited{
+color:#ffffff:
+}
+
+#links{
+position:relative;
+bottom:25px;
+width:200px;
+margin:auto;
+text-align: center;
+}
+
+#links a{
+color:white;
+margin-left:15px;
+margin-right:15px;
+}
+
+#links a:visited{
+color:#c4c4c4;
+margin-left:15px;
+margin-right:15px;
+}
+
+#title{
+padding-top: 10px;
+font-size: 200%;
+text-align: center;
+}
+
+#majorList{
+border: 1px solid #a2a9b1;
+width:700px;
+margin:auto;
+background-color: #f8f9fa;
+padding: 5px;
+}
+
+h3{
+text-align:center;}
+
+#majorTable{
+width:600px;
+margin:auto;
+}
+
+.majorTitle{
+	height: 27px;
+    border: 1px solid #a2a9b1;
+    color: black;
+    background: #f8f9fa;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.courses{
+border: 1px solid #a2a9b1;
+width:700px;
+margin:auto;
+background-color:#4a7348;
+color: white;
+padding: 20px;
+}
+
+.courses a{
+color:white;}
+
+.courses a:visited{
+color:#c4c4c4;
+}
