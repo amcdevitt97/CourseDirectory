@@ -1,3 +1,4 @@
+var newWindow = false;
 function showTable(div) {
     var x = document.getElementById(div);
     if (x.style.display === "block") {
@@ -11,14 +12,21 @@ function showTable(div) {
 }
 
 function toggleNewTab(){
-	var state = document.getElementsByClassName("courseLink")[0].getAttribute("target");
-	if(state === "_blank"){
-		document.getElementsByClassName("courseLink")[0].setAttribute("target", "");
-		console.log("turned off");
+	if(newWindow === true){
+		newWindow = false;
+		console.log(newWindow);
 	}
-	else if(state === ""){
-		document.getElementsByClassName("courseLink")[0].setAttribute("target", "_blank");
-		console.log("turned on");
+	else if(newWindow === false){
+		newWindow = true;
+		console.log(newWindow);
 	}
-	
+}
+
+function openLink(link){
+	if(newWindow === true){
+		window.open(link,"_blank");
+	}
+	else if(newWindow === false){
+		window.open(link,"_self");
+	}
 }
