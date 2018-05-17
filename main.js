@@ -9,3 +9,16 @@ function showTable(div) {
         document.getElementById("CSbutton").innerHTML = "Collapse";
     }
 }
+
+function toggleNewTab(){
+	var state = document.getElementsByClassName("courseLink")[0].getAttribute("target");
+	if(state === "_blank"){
+		document.getElementsByClassName("courseLink")[0].setAttribute("target", "");
+		console.log("turned off");
+	}
+	else if(state === ""){
+		document.getElementsByClassName("courseLink")[0].setAttribute("target", "_blank");
+		console.log("turned on");
+	}
+	
+}
