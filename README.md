@@ -1,4 +1,4 @@
-# Project Title
+# Course Directory
 
 Course Directory is a portal to various course sites at YCP. Due to copyright concerns, for students to contribute to this project they have to obtain teacher approval and send it via a Google form to me
 
